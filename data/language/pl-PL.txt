@@ -1963,6 +1963,8 @@ STR_2766    :Wygraj scenariusz
 STR_2767    :Zablokuj klimat
 STR_2768    :Odblokuj klimat
 STR_2769    :Otwórz park
+
+
 STR_2770    :Zamknij park
 STR_2773    :Okno
 STR_2774    :Pełny ekran
