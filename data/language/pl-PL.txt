@@ -3481,7 +3481,6 @@ STR_6221    :{SMALLFONT}{BLACK}This will set the ride's known entrance or exit l
 STR_6222    :Nie można tutaj postawić wejścia dla gości…
 STR_6223    :Musi być poza granicami parku!
 STR_6224    :{STRING} ustawiono wejście dla gości.
-STR_6225    :Brak wsparcia przez OpenGL
 STR_6226    :Włącz wcześniejsze zaliczanie scenariusza
 STR_6227    :{SMALLFONT}{BLACK}Zalicza dany scenariusz przed wyznaczoną datą jeżeli są spełnione wszystkie warunki.
 STR_6228    :Opcje scenariusza

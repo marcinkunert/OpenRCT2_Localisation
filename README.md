@@ -1,6 +1,13 @@
-<!--TO VIEW THE DOCUMENT CORRECTLY: USE LINE WRAP METHOD "NO WRAP"-->
-<!--   Lines within these brackets are invisible and guides you   -->
 
+#### Check results
+
+| |Before| After|Diff|
+|---|---|---|---|
+|  Translated | 0 | 0 | +0% |  
+|  Missing | 0 | 0 | +0% |           
+|  Same as `en-GB` | 0 | 0 | +0% |   
+|  Not in `en-GB` | 0 | 0 | +0% |               
+            
 # Localisation
 This repository is for the translation of OpenRCT2 into other languages.<br/>
 For the main development and codebase of OpenRCT2, visit [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2).
@@ -78,3 +85,4 @@ Anyone can still contribute to the languages.
 ### Questions & Support
 
 If you have any question or issues, you can always ask us on [Discord](https://discord.gg/sxnrvX9).
+
