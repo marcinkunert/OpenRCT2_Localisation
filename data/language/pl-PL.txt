@@ -1956,15 +1956,6 @@ STR_2749    :Mój nowy scenariusz
 # Nowe treści używane  w oknie cheatów
 STR_2750    :Przenieś wszystkie do góry
 STR_2751    :Przenieś wszystkie na dół
-STR_2752    :Czysta trawa
-STR_2753    :Skoszona trawa
-STR_2754    :Podlej kwiaty
-STR_2755    :Usuń wandalizm
-STR_2756    :Usuń śmieci
-STR_2763    :???
-STR_2765    :Przypływ gości
-STR_2766    :Wygraj scenariusz
-STR_2767    :Zablokuj klimat
 STR_2768    :Odblokuj klimat
 STR_2769    :Otwórz park
 STR_2770    :Zamknij park
