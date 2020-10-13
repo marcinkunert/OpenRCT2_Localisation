@@ -1959,7 +1959,6 @@ STR_2751    :Przenieś wszystkie na dół
 STR_2752    :Czysta trawa
 STR_2756    :Usuń śmieci
 STR_2763    :???
-STR_2765    :Przypływ gości
 STR_2766    :Wygraj scenariusz
 STR_2767    :Zablokuj klimat
 STR_2768    :Odblokuj klimat
