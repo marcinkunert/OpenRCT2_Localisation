@@ -23,7 +23,6 @@ STR_0021    :Korkenzieher-Achterbahn
 STR_0022    :Irrgarten
 STR_0023    :Spiralgleitbahn
 STR_0024    :Go-Karts
-STR_0025    :Wildwasserbahn
 STR_0026    :Stromschnellen
 STR_0027    :Autoscooter
 STR_0028    :Piratenschiff
