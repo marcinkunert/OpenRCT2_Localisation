@@ -19,7 +19,6 @@ STR_0018    :Zjeżdżalnia wodna
 STR_0019    :Kolejka kopalniana
 STR_0020    :Wyciąg krzesełkowy
 STR_0023    :Spiralna zjeżdżalnia
-STR_0026    :Katarakty rzeczne
 STR_0030    :Budka z jedzeniem
 STR_0031    :Nieznane stoisko (1D)
 STR_0036    :Nieznane stoisko (22)
