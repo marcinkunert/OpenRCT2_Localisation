@@ -75,7 +75,7 @@ STR_0076    :Wodna kolejka
 STR_0077    :Air Powered Vertical Coaster
 STR_0078    :Inverted Hairpin Coaster
 STR_0079    :Magiczny Dywan
-STR_0080    :Submarine Ride
+STR_9999    :Submarine Ride
 STR_0081    :Tratwy
 STR_0082    :Nieznana atrakcja (50)
 STR_0083    :Enterprise
