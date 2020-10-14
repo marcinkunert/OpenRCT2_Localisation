@@ -32,8 +32,6 @@ STR_0039    :Diabelski młyn
 STR_0040    :Symulator
 STR_0041    :Kino 3D
 STR_0042    :Wirówka
-STR_0043    :Kosmiczne pierścienie
-STR_0044    :Reverse Freefall Coaster
 STR_0045    :Winda
 STR_0046    :Vertical Drop Roller Coaster
 STR_0047    :Bankomat
