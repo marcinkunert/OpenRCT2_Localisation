@@ -9,17 +9,10 @@ STR_0004    :Podwieszana kolejka górska
 STR_0005    :Odwrócona kolejka górska
 STR_0006    :Dziecięca kolejka górska
 STR_0007    :Miniaturowa kolejka
-STR_0008    :Kolejka jednotorowa
-STR_0009    :Podwieszana mini kolejka
-STR_0010    :Łódki
-STR_0011    :Drewniana Zwariowana Mysz
-STR_0012    :Tor Przeszkód
-STR_0013    :Przejażdżka Autami
-STR_0014    :Wystrzałowa spadajka
-STR_0015    :Bobsleje
 STR_0016    :Wieża obserwacyjna
 STR_0017    :Pętlowa kolejka górska
 STR_0018    :Zjeżdżalnia wodna
+STR_1234    :Zjeżdżalnia wodna
 STR_0019    :Kolejka kopalniana
 STR_0020    :Wyciąg krzesełkowy
 STR_0021    :Kolejka górska korkociąg
@@ -91,7 +84,7 @@ STR_0086    :Nieznana atrakcja (54)
 STR_0087    :Nieznana atrakcja (55)
 STR_0088    :Inverted Impulse Coaster
 STR_0089    :Mini kolejka górska
-STR_0090    :Kolejka kopalniana
+STR_0090    :Mine Ride
 STR_0091    :Nieznana atrakcja (59)
 STR_0092    :LIM Launched Roller Coaster
 STR_0512    :Kolejka górska ze spiralnym podjazdem i łagodnymi pokręconymi zjazdami
