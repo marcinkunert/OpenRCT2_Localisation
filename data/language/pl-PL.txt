@@ -15,7 +15,6 @@ STR_0010    :Łódki
 STR_0011    :Drewniana Zwariowana Mysz
 STR_0012    :Tor Przeszkód
 STR_0013    :Przejażdżka Autami
-STR_0017    :Pętlowa kolejka górska
 STR_0018    :Zjeżdżalnia wodna
 STR_0019    :Kolejka kopalniana
 STR_0020    :Wyciąg krzesełkowy
