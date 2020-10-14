@@ -33,7 +33,6 @@ STR_0029    :Morska huśtawka
 STR_0030    :Budka z jedzeniem
 STR_0031    :Nieznane stoisko (1D)
 STR_0032    :Budka z napojami
-STR_0033    :Nieznane stoisko (1F)
 STR_0034    :Stoisko
 STR_0035    :Karuzela obrotowa
 STR_0036    :Nieznane stoisko (22)
