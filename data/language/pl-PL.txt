@@ -145,7 +145,7 @@ STR_0562    :Samochody z napędem do jeżdżenia po wielopoziomowych torach prze
 STR_0563    :Siedząc w wygodnych wagonach z prostym zabezpieczeniem goście cieszą się delikatnymi zjazdami i krętą trasą tak samo, jak wiatrem we włosach
 STR_0564    :Jazda na drewnianym torze, kolejka jest szybka, twarda, głośna i daje poczucie braku kontroli nad przejazdem, jednocześnie zapewnia uczucie wiatru we włosach
 STR_0565    :Prosta drewniana kolejka górska tylko z łagodnymi wzniesieniami i zakrętami, gdzie pojazdy trzymają się trasy w oparciu o tarcie kół i grawitację
-STR_0566    :Indywidualna kolejka górska z pojazdami poruszającymi się zakręonym torem z ostrymi łukami i krótkimi stromymi zjazdami
+STR_0566    :Indywidualna kolejka górska z pojazdami poruszającymi się zakręconym torem z ostrymi łukami i krótkimi stromymi zjazdami
 STR_0567    :Siedząc w wózkach podwieszonych po obu stronach toru, goście podskakują gdy wjeżdżają w strome zjazdy i przemierzają różne inwersje
 STR_0569    :Jazda w specjalnych uprzężach pod torem, goście mają wrażenie że latają
 STR_0571    :Okrągłe pojazdy kręcą się w kółko podczas jazdy tym krętym drewnianym torem
