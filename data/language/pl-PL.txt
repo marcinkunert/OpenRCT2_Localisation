@@ -24,8 +24,6 @@ STR_0020    :Wyciąg krzesełkowy
 STR_0021    :Kolejka górska korkociąg
 STR_0023    :Spiralna zjeżdżalnia
 STR_0026    :Katarakty rzeczne
-STR_0027    :Samochodziki
-STR_0028    :Statek piracki
 STR_0029    :Morska huśtawka
 STR_0030    :Budka z jedzeniem
 STR_0031    :Nieznane stoisko (1D)
