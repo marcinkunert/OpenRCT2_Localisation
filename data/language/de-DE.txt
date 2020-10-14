@@ -16,7 +16,6 @@ STR_0013    :Wagenbahn
 STR_0014    :Hochgeschossener Freefall
 STR_0015    :Bob-Achterbahn
 STR_0016    :Aussichtsturm
-STR_0017    :Looping-Achterbahn
 STR_0018    :Schlauchboot-Gleitbahn
 STR_0019    :Minenachterbahn
 STR_0020    :Sessellift
