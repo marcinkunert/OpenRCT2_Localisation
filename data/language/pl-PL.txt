@@ -17,7 +17,6 @@ STR_0012    :Tor Przeszkód
 STR_0013    :Przejażdżka Autami
 STR_0014    :Wystrzałowa spadajka
 STR_0015    :Bobsleje
-STR_0016    :Wieża obserwacyjna
 STR_0017    :Pętlowa kolejka górska
 STR_0018    :Zjeżdżalnia wodna
 STR_0019    :Kolejka kopalniana
