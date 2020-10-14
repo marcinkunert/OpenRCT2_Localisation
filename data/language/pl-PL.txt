@@ -62,6 +62,7 @@ STR_0064    :Lay-down Roller Coaster
 STR_0065    :Suspended Monorail
 STR_0066    :Nieznana atrakcja (40)
 STR_0067    :Reverser Roller Coaster
+STR_9999    :this is not in gb_GB
 STR_0068    :Heartline Twister Coaster
 STR_0069    :Mini golf
 STR_0070    :Giga Coaster
