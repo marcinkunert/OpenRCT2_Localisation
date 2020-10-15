@@ -30,7 +30,6 @@ STR_0032    :Budka z napojami
 STR_0033    :Nieznane stoisko (1F)
 STR_0034    :Stoisko
 STR_0035    :Karuzela obrotowa
-STR_0036    :Nieznane stoisko (22)
 STR_0037    :Punkt informacyjny
 STR_0038    :Toalety
 STR_0039    :Diabelski młyn
