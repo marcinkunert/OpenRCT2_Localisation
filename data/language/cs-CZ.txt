@@ -3954,7 +3954,6 @@ STR_PARK    :Schneider Shores
 STR_DTLS    :75. leté výročí výhry Schneider Cup vašeho dědečka se blíží a zbývá už jen pár let. Poctíte jeho úspěch stavbou zábavního parku založeném na proslulém závodu hydroplánů.
 
 <Roaring Twenties - Skyscrapers>
-STR_PARK    :Metropolis
 STR_DTLS    :Vlastníte volný pozemek v městské oblasti téměř bez růstu. Abyste vymačkali co nejvíce z vaší nemovitosti, postavíte mrakodrap-zábavní park inspirovaný architekturou dvacátých let.
 
 <Rock 'n' Roll - Flower Power>
