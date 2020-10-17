@@ -1131,8 +1131,6 @@ STR_1748    :{SMALLFONT}{BLACK}Časový limit atrakce
 STR_1749    :{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{DURATION}
 STR_1751    :Časový limit atrakce nelze změnit…
 STR_1752    :{SMALLFONT}{BLACK}Zobrazit seznam návštěvníků v parku
-STR_1757    :{WINDOW_COLOUR_2}Spolehlivost: {MOVE_X}{255}{BLACK}{COMMA16}%
-STR_1758    :{SMALLFONT}{BLACK}Mód stavby
 STR_1759    :{SMALLFONT}{BLACK}Mód přesunu
 STR_1760    :{SMALLFONT}{BLACK}Mód výplně
 STR_1761    :{SMALLFONT}{BLACK}Stavět bludiště v tomto směru
