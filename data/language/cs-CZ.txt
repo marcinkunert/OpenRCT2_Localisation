@@ -1143,10 +1143,6 @@ STR_1761    :{SMALLFONT}{BLACK}Stavět bludiště v tomto směru
 STR_1762    :Vodopády
 STR_1763    :Peřeje
 STR_1764    :Nárazy
-STR_1765    :Fotobuňka
-STR_1766    :Otáčející blok
-STR_1767    :Točící se tunel
-STR_1768    :Nelze změnit počet zhoupnutí…
 STR_1769    :{WINDOW_COLOUR_2}Počet zhoupnutí:
 STR_1770    :{SMALLFONT}{BLACK}Počet zhoupnutí
 STR_1771    :{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{COMMA16}
