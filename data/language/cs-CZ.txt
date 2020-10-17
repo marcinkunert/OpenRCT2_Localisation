@@ -1131,9 +1131,6 @@ STR_1748    :{SMALLFONT}{BLACK}Časový limit atrakce
 STR_1749    :{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{DURATION}
 STR_1751    :Časový limit atrakce nelze změnit…
 STR_1752    :{SMALLFONT}{BLACK}Zobrazit seznam návštěvníků v parku
-STR_1754    :{BLACK}{COMMA32} návštěvníků
-STR_1755    :{BLACK}{COMMA32} návštěvník
-STR_1756    :{WINDOW_COLOUR_2}Cena vstupu do parku:
 STR_1757    :{WINDOW_COLOUR_2}Spolehlivost: {MOVE_X}{255}{BLACK}{COMMA16}%
 STR_1758    :{SMALLFONT}{BLACK}Mód stavby
 STR_1759    :{SMALLFONT}{BLACK}Mód přesunu
