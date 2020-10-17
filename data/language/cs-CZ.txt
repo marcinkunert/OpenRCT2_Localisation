@@ -3961,7 +3961,6 @@ STR_DTLS    :Vlastníte volný pozemek v městské oblasti téměř bez růstu. 
 <Rock 'n' Roll - Flower Power>
 STR_SCNR    :Rock 'n' Roll - Flower Power
 STR_PARK    :Woodstock
-STR_DTLS    :Obrovský každoroční hudební festival se bude konat na vašem pozemku. Postavte pořádný park, abyste zabavili návštěvníky.
 
 <Rock 'n' Roll - Rock 'n' Roll>
 STR_SCNR    :Rock 'n' Roll - Rock 'n' Roll
