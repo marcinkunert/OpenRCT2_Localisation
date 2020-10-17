@@ -1125,8 +1125,6 @@ STR_1741    :Zatím není postaveno!
 STR_1742    :{WINDOW_COLOUR_2}Max. návštěvníků na atrakci
 STR_1743    :{SMALLFONT}{BLACK}Maximální povolený počet návštěvníků současně na atrakci
 STR_1744    :{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{COMMA16}
-STR_1746    :Tohle nelze změnit…
-STR_1747    :{WINDOW_COLOUR_2}Časový limit:
 STR_1748    :{SMALLFONT}{BLACK}Časový limit atrakce
 STR_1749    :{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{DURATION}
 STR_1751    :Časový limit atrakce nelze změnit…
