@@ -36,17 +36,16 @@ jobs:
           git fetch origin master:refs/remotes/origin/master
           merge_base=$(git merge-base refs/remotes/origin/master HEAD)
           git checkout $merge_base
-          is_master=$($merge_base == ${{github.event.pull_request.head.ref }})
-          echo ::set-output name=is_master::$is_master
+          echo ::set-output name=merge_base::merge_base
           cd ..
 
       - name: Remove master
-        if: ${{ steps.merge-base-commit.outputs.is_master }}
+        if: ${{ steps.merge-base-commit.outputs.merge_base == github.event.pull_request.head.ref }}
         run: rm -rf master
 
       - name: Checkout upstream master as master
         uses: actions/checkout@v2
-        if: ${{ steps.merge-base-commit.outputs.is_master }}
+        if: ${{ steps.merge-base-commit.outputs.merge_base == github.event.pull_request.head.ref }}
         with:
           ref: master
           path: master
