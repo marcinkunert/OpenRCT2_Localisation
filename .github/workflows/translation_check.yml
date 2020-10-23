@@ -32,9 +32,11 @@ jobs:
       - name: Checkout commit before branch changes
         id: merge-base-commit
         run: |
+          echo "head sha: ${{github.event.pull_request.head.sha}}"
           cd master
           git fetch origin master:refs/remotes/origin/master
           merge_base=$(git merge-base refs/remotes/origin/master HEAD)
+          echo "merge base sha: ${merge_base}"
           git checkout $merge_base
           echo ::set-output name=merge_base::merge_base
           cd ..
