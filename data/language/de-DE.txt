@@ -21,19 +21,6 @@ STR_0016    :Aussichtsturm
 STR_0017    :Looping-Achterbahn
 STR_0018    :Schlauchboot-Gleitbahn
 STR_0019    :Minenachterbahn
-STR_0020    :Sessellift
-STR_0021    :Korkenzieher-Achterbahn
-STR_0022    :Irrgarten
-STR_0023    :Spiralgleitbahn
-STR_0024    :Go-Karts
-STR_0025    :Wildwasserbahn
-STR_0026    :Stromschnellen
-STR_0027    :Autoscooter
-STR_0028    :Piratenschiff
-STR_0029    :Schwingendes Überkopfschiff
-STR_0030    :Imbissstand
-STR_0031    :Unbekannter Stand (1D)
-STR_0032    :Getränkestand
 STR_0033    :Unbekannter Stand (1F)
 STR_0034    :Stand
 STR_0035    :Karussell
