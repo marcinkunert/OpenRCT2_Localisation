@@ -43,10 +43,13 @@ jobs:
         outputs:
           is_master: ${{ $CURRENT_SHA == github.event.pull_request.head.ref }}
 
+      - name: Remove master
+        if: ${{ steps.merge-base-commit.outputs.is_master }}
+        run: rm -rf master
+
       - name: Checkout upstream master as master
         uses: actions/checkout@v2
         if: ${{ steps.merge-base-commit.outputs.is_master }}
-        run: rm -rf master
         with:
           ref: master
           path: master
