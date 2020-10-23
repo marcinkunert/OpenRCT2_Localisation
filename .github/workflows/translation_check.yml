@@ -28,14 +28,28 @@ jobs:
           ref: ${{github.event.pull_request.head.ref}}
           repository: ${{github.event.pull_request.head.repo.full_name}}
           fetch-depth: 0
+        run: echo ${{github.event.pull_request.head.ref}}
 
       - name: Checkout commit before branch changes
+        id: merge-base-commit
         run: |
           cd master
           git fetch origin master:refs/remotes/origin/master
           git merge-base refs/remotes/origin/master HEAD
           git checkout $(git merge-base refs/remotes/origin/master HEAD)
           cd ..
+        env:
+          CURRENT_SHA: git log --pretty=format:'%H' -n 1
+        outputs:
+          is_master: ${{ $CURRENT_SHA == github.event.pull_request.head.ref }}
+
+      - name: Checkout upstream master as master
+        uses: actions/checkout@v2
+        if: ${{ steps.merge-base-commit.outputs.is_master }}
+        run: rm -rf master
+        with:
+          ref: master
+          path: master
 
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
