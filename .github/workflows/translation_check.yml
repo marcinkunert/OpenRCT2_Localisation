@@ -38,7 +38,7 @@ jobs:
           merge_base=$(git merge-base refs/remotes/origin/master HEAD)
           echo "merge base sha: ${merge_base}"
           git checkout $merge_base
-          echo ::set-output name=merge_base::merge_base
+          echo ::set-output name=merge_base::$merge_base
           cd ..
 
       - name: Print debug stuff
