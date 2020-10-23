@@ -40,12 +40,12 @@ jobs:
           cd ..
 
       - name: Remove master
-        if: ${{ steps.merge-base-commit.outputs.merge_base == github.event.pull_request.head.ref }}
+        if: ${{ steps.merge-base-commit.outputs.merge_base == github.event.pull_request.head.sha }}
         run: rm -rf master
 
       - name: Checkout upstream master as master
         uses: actions/checkout@v2
-        if: ${{ steps.merge-base-commit.outputs.merge_base == github.event.pull_request.head.ref }}
+        if: ${{ steps.merge-base-commit.outputs.merge_base == github.event.pull_request.head.sha }}
         with:
           ref: master
           path: master
