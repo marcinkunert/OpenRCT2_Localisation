@@ -32,16 +32,13 @@ jobs:
       - name: Checkout commit before branch changes
         id: merge-base-commit
         run: |
-          if: ${{ steps.merge-base-commit.outputs.is_master }}
           cd master
           git fetch origin master:refs/remotes/origin/master
-          git merge-base refs/remotes/origin/master HEAD
-          git checkout $(git merge-base refs/remotes/origin/master HEAD)
+          merge_base = git merge-base refs/remotes/origin/master HEAD
+          git checkout $merge_base
+          is_master=(merge_base == ${{github.event.pull_request.head.ref }})
+          echo ::set-output name=is_master::$is_master
           cd ..
-        env:
-          CURRENT_SHA: git log --pretty=format:'%H' -n 1
-        outputs:
-          is_master: ${{ $CURRENT_SHA == github.event.pull_request.head.ref }}
 
       - name: Remove master
         if: ${{ steps.merge-base-commit.outputs.is_master }}
