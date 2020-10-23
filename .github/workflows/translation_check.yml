@@ -28,11 +28,11 @@ jobs:
           ref: ${{github.event.pull_request.head.ref}}
           repository: ${{github.event.pull_request.head.repo.full_name}}
           fetch-depth: 0
-        run: echo ${{github.event.pull_request.head.ref}}
 
       - name: Checkout commit before branch changes
         id: merge-base-commit
         run: |
+          if: ${{ steps.merge-base-commit.outputs.is_master }}
           cd master
           git fetch origin master:refs/remotes/origin/master
           git merge-base refs/remotes/origin/master HEAD
