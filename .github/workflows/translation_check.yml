@@ -36,7 +36,7 @@ jobs:
           git fetch origin master:refs/remotes/origin/master
           merge_base=$(git merge-base refs/remotes/origin/master HEAD)
           git checkout $merge_base
-          is_master=$(merge_base == ${{github.event.pull_request.head.ref }})
+          is_master=$($merge_base == ${{github.event.pull_request.head.ref }})
           echo ::set-output name=is_master::$is_master
           cd ..
 
