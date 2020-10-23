@@ -41,6 +41,12 @@ jobs:
           echo ::set-output name=merge_base::merge_base
           cd ..
 
+      - name: Print debug stuff
+        -run: |
+          echo ${{steps.merge-base-commit.outputs.merge_base}}
+          echo ${{github.event.pull_request.head.sha}}
+          echo ${{steps.merge-base-commit.outputs.merge_base == github.event.pull_request.head.sha}}
+
       - name: Remove master
         if: ${{ steps.merge-base-commit.outputs.merge_base == github.event.pull_request.head.sha }}
         run: rm -rf master
