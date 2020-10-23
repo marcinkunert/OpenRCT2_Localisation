@@ -42,7 +42,7 @@ jobs:
           cd ..
 
       - name: Print debug stuff
-        -run: |
+        run: |
           echo ${{steps.merge-base-commit.outputs.merge_base}}
           echo ${{github.event.pull_request.head.sha}}
           echo ${{steps.merge-base-commit.outputs.merge_base == github.event.pull_request.head.sha}}
